@@ -22,3 +22,21 @@ is fit for different use case.
 Here's a simple screencast:
 
 ![Booklistapp demo](booklistapp.gif)
+
+## SQLite database
+
+All the apps use the same SQLite database file located at `db.sqlite`. It is
+not in this repo as it changes when apps do changes to it. So when you clone
+this repository, you should init your repo by copying the defaults to
+`db.sqlite`:
+
+```bash
+$ cp db.defaults.sqlite db.sqlite
+```
+
+It is SQLite version 3 database, so you can check the contents for example using
+[SQLite Studio](https://sqlitestudio.pl/).
+
+## License
+
+ISC
