@@ -25,12 +25,13 @@ Here's a simple screencast:
 
 ## SQLite database
 
-All the apps use the same SQLite database file located at `db.sqlite`. It is
-not in this repo as it changes when apps do changes to it. So when you clone
-this repository, you should init your repo by copying the defaults to
-`db.sqlite`:
+All the apps use the same SQLite database file located at `/db.sqlite`. It is
+not in this repo as it changes when apps writes to it. So when you clone
+this repository, you should init the database by copying the defaults to
+`/db.sqlite`:
 
 ```bash
+# In directory with repository booklistapp-with-different-tech
 $ cp db.defaults.sqlite db.sqlite
 ```
 
