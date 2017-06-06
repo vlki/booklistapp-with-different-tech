@@ -1,7 +1,6 @@
 <?php
 
-// Using double-dirname trick to get path to the parent directory
-$dbPath = dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'db.sqlite';
+include 'common.php';
 
 try {
   $pdo = new PDO('sqlite:' . $dbPath);
@@ -21,7 +20,7 @@ try {
   // happenned
   http_response_code(500);
   echo "Error when connecting to database: " . $e->getMessage() . "<br>";
-  die();
+  exit;
 }
 
 ?><!DOCTYPE html>
