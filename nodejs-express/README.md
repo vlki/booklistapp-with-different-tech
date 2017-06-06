@@ -1,3 +1,5 @@
 # Booklistapp in Node.js and Express
 
-TBD
+## Run
+
+First you have to 
