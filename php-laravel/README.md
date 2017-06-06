@@ -5,14 +5,14 @@
 First download all dependencies via Composer:
 
 ```bash
-composer install
+$ composer install
 ```
 
 And then run the PHP built-in development server by the recommended
 command
 
 ```bash
-php artisan serve
+$ php artisan serve
 ```
 
 It starts the app at: [http://localhost:8000/]()
