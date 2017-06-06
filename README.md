@@ -6,14 +6,14 @@ I am using it as a teaching material to show how the same functionality can be
 done using different technologies and demonstrating that each of these is fit
 for different use cases.
 
-# Technologies
+## Technologies
 
 * [Good ol' plain PHP](php-plain)
 * [PHP + Laravel](php-laravel)
 * Node.js + Express (in progress)
 * Python + Django (in progress)
 
-# The app
+## The app
 
 * list of books fetched from Sqlite database
 * link to delete any of the books
