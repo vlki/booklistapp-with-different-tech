@@ -11,12 +11,12 @@
       <% books.forEach(function(book) { %>
         <li>
           <%= book.title %>
-          <a href="">delete</a>
+          <a href="/delete-book/<%= book.id %>">delete</a>
         </li>
       <% }); %>
     </ul>
 
-    <form action="" method="POST">
+    <form action="/create-book" method="POST">
       <input type="text" name="title">
       <input type="submit" value="Add">
     </form>

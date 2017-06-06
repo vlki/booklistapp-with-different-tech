@@ -1,13 +1,9 @@
 var express = require('express');
+var bookController = require('../controllers/bookController');
 var router = express.Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  var books = [
-    { id: 1, title: 'Slaughterhouse Five by Kurt Vonnegut' }
-  ];
-
-  res.render('index', { books });
-});
+router.get('/', bookController.index);
+router.post('/create-book', bookController.create);
+router.get('/delete-book/:id', bookController.delete);
 
 module.exports = router;
