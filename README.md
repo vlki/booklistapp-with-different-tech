@@ -15,7 +15,7 @@ is fit for different use case.
 
 ## The app
 
-* list of books fetched from Sqlite database
+* list of books fetched from SQLite database
 * link to delete any of the books
 * text input and submit button for adding new book
 

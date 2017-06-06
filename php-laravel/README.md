@@ -2,7 +2,15 @@
 
 ## Run
 
-First download all dependencies via Composer:
+If you haven't already, reset the SQLite database by copying the default
+database file over the one which is used by the app:
+
+```bash
+# from /php-laravel directory
+$ cp ../db.default.sqlite ../db.sqlite
+```
+
+Continue by downloading all dependencies via Composer:
 
 ```bash
 $ composer install
@@ -15,7 +23,7 @@ command
 $ php artisan serve
 ```
 
-It starts the app at: [http://localhost:8000/]()
+Now open the app in browser at: [http://localhost:8000/](http://localhost:8000/)
 
 ## Requirements
 
