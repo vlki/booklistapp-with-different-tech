@@ -8,8 +8,8 @@ for different use cases.
 
 # Technologies
 
-* [php-plain](Good ol' plain PHP)
-* [php-laravel](PHP + Laravel)
+* [Good ol' plain PHP](php-plain)
+* [PHP + Laravel](php-laravel)
 * Node.js + Express (in progress)
 * Python + Django (in progress)
 
@@ -21,4 +21,4 @@ for different use cases.
 
 Here's a simple screencast:
 
-![booklistapp.gif](Booklistapp demo)
+![Booklistapp demo](booklistapp.gif)
