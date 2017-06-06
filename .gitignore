@@ -1,0 +1,2 @@
+# Since db.sqlite is being updated by all the apps, don't track it
+db.sqlite
