@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('books');
-});
+Route::get('/', 'BookController@index');
+Route::get('/delete-book/{id}', 'BookController@delete');
+Route::post('/add-book', 'BookController@create');
