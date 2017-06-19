@@ -11,7 +11,7 @@ is fit for different use case.
 * [Good ol' plain PHP](php-plain)
 * [PHP + Laravel](php-laravel)
 * [Node.js + Express](nodejs-express)
-* Python + Django (in progress)
+* [Python + Django](python-django)
 
 ## The app
 
